@@ -1,9 +1,9 @@
 Future<String> catchOrder() => Future.delayed(
-    Duration(milliseconds: 5000), () => "Take my order!!!");
+    Duration(milliseconds: 5000), () => 'Take my order!!!');
 
 Future<String> createOrder() async {
   var order = await catchOrder();
-  return "Order is: $order";
+  return 'Order is: $order';
 }
 
 Future<void> main() async{

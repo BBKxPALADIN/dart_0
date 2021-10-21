@@ -33,7 +33,7 @@ class Counting implements Multiplication, Division {
   }
 }
 
-main(){
+void main(){
   Counting count=new Counting(10, 12);
   count.multipl();
   count.div();

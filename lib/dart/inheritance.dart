@@ -1,18 +1,18 @@
 class UserDetails{
-  String firstName="Bekzod";
-  String lastName="Kuvondikov";
+  String firstName='Bekzod';
+  String lastName='Kuvondikov';
   int age=21;
 
   void printDetails(){}
   void sayhello(){
-    print("Hello");
+    print('Hello');
   }
 }
 
 class StudentDetails extends UserDetails{
 
-  String ID="U1910212";
-  String isMale(bool gender)=>gender?"male":"female";
+  String ID='U1910212';
+  String isMale(bool gender)=>gender?'male':'female';
 
   @override
   void printDetails() {
@@ -25,7 +25,7 @@ class StudentDetails extends UserDetails{
   }
 }
 
-main(){
+void main(){
   StudentDetails student=new StudentDetails();
   student.sayhello();
   student.printDetails();

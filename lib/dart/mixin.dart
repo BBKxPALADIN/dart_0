@@ -14,11 +14,11 @@ mixin PlayerName{
 class DisplayName extends Player with PlayerName{
   @override
   void player() {
-    print("Player Name is: $_name");
+    print('Player Name is: $_name');
   }
 }
 
-main(){
+void main(){
   DisplayName()
     ..setName(Name.Bekzod)
     ..player();

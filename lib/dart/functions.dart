@@ -1,4 +1,4 @@
-main(){
+void main(){
 
   int a=5;
   int b=10;
@@ -6,7 +6,7 @@ main(){
 
   sayHelloWorld();
   print(printName('Bekzod'));
-  print("Multiplication: $a * $b = $result");
+  print('Multiplication: $a * $b = $result');
 }
 
 void sayHelloWorld(){
@@ -14,7 +14,7 @@ void sayHelloWorld(){
 }
 
 String printName(String name){
-  return("My name is $name");
+  return('My name is $name');
 }
 
 int multiplication(int a,int b)=>a*b;
